@@ -1,0 +1,1165 @@
+[17Jan2026 20:54:07.546] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[17Jan2026 20:54:07.558] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.17 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[17Jan2026 20:54:15.520] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/musical-meme/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2361!/ Service=ModLauncher Env=SERVER
+[17Jan2026 20:54:16.992] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/musical-meme/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[17Jan2026 20:54:16.994] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/musical-meme/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[17Jan2026 20:54:16.995] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/musical-meme/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[17Jan2026 20:54:16.997] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/musical-meme/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[17Jan2026 20:54:18.056] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[17Jan2026 20:54:18.059] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 13 dependencies adding them to mods collection
+[17Jan2026 20:54:25.648] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[17Jan2026 20:54:26.369] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[17Jan2026 20:54:26.378] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.tradecycling.MixinConnector]
+[17Jan2026 20:54:26.382] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.aizistral.nochatreports.MixinConnector]
+[17Jan2026 20:54:26.392] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [thelm.jaopca.mixins.JAOPCAMixinConnector]
+[17Jan2026 20:54:26.409] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[17Jan2026 20:54:26.482] [main/WARN] [mixin/]: Reference map 'grapplemod.refmap.json' for grapplemod.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Jan2026 20:54:26.817] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.15.0+mc1.19.2: 83 options available, 1 override(s) found
+[17Jan2026 20:54:26.820] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.item_cache_flag' overriden (by mods [canary]) to 'false'
+[17Jan2026 20:54:26.822] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[17Jan2026 20:54:26.859] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[17Jan2026 20:54:27.152] [main/INFO] [fpsreducer/]: OptiFine was NOT detected.
+[17Jan2026 20:54:27.157] [main/INFO] [fpsreducer/]: OptiFabric was NOT detected.
+[17Jan2026 20:54:27.166] [main/WARN] [mixin/]: Reference map 'dummmmmmy-forge-refmap.json' for dummmmmmy.mixins.json could not be read. If this is a development environment you can ignore this message
+[17Jan2026 20:54:27.185] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 31 options available, 0 override(s) found
+[17Jan2026 20:54:27.449] [main/WARN] [CanaryConfig/]: Option 'mixin.world.block_entity_ticking.world_border' requires 'mixin.util.world_border_listener=true' but found 'false'. Setting 'mixin.world.block_entity_ticking.world_border=false'.
+[17Jan2026 20:54:27.451] [main/INFO] [Canary/]: Loaded configuration file for Canary: 124 options available, 0 override(s) found
+[17Jan2026 20:54:27.944] [main/WARN] [mixin/]: Error loading class: atomicstryker/multimine/client/MultiMineClient (java.lang.ClassNotFoundException: atomicstryker.multimine.client.MultiMineClient)
+[17Jan2026 20:54:27.944] [main/WARN] [mixin/]: @Mixin target atomicstryker.multimine.client.MultiMineClient was not found treechop.forge.compat.mixins.json:MultiMineMixin
+[17Jan2026 20:54:28.301] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[17Jan2026 20:54:28.501] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[17Jan2026 20:54:28.972] [main/WARN] [mixin/]: Error loading class: me/desht/pneumaticcraft/common/util/upgrade/ApplicableUpgradesDB (java.lang.ClassNotFoundException: me.desht.pneumaticcraft.common.util.upgrade.ApplicableUpgradesDB)
+[17Jan2026 20:54:28.973] [main/WARN] [mixin/]: @Mixin target me.desht.pneumaticcraft.common.util.upgrade.ApplicableUpgradesDB was not found ad_astra_giselle_addon.mixin.forge.common.json:pneumaticcraft.ApplicableUpgradesDBInject
+[17Jan2026 20:54:30.070] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/voicechat/plugins/impl/audiochannel/EntityAudioChannelImpl (java.lang.ClassNotFoundException: de.maxhenkel.voicechat.plugins.impl.audiochannel.EntityAudioChannelImpl)
+[17Jan2026 20:54:30.073] [main/WARN] [mixin/]: @Mixin target de.maxhenkel.voicechat.plugins.impl.audiochannel.EntityAudioChannelImpl was not found railways-common.mixins.json:compat.voicechat.EntityAudioChannelImplMixin
+[17Jan2026 20:54:30.076] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/voicechat/voice/server/Server (java.lang.ClassNotFoundException: de.maxhenkel.voicechat.voice.server.Server)
+[17Jan2026 20:54:30.078] [main/WARN] [mixin/]: @Mixin target de.maxhenkel.voicechat.voice.server.Server was not found railways-common.mixins.json:compat.voicechat.ServerMixin
+[17Jan2026 20:54:30.083] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/voicechat/voice/server/ServerWorldUtils (java.lang.ClassNotFoundException: de.maxhenkel.voicechat.voice.server.ServerWorldUtils)
+[17Jan2026 20:54:30.085] [main/WARN] [mixin/]: @Mixin target de.maxhenkel.voicechat.voice.server.ServerWorldUtils was not found railways-common.mixins.json:compat.voicechat.ServerWorldUtilsMixin
+[17Jan2026 20:54:32.436] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[17Jan2026 20:54:33.256] [main/INFO] [mixin/]: Mixing server.MixinDedicatedServer from nochatreports.mixins.json into net.minecraft.server.dedicated.DedicatedServer
+[17Jan2026 20:54:33.479] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_216202_ in modernfix-forge.mixins.json:perf.tag_id_caching.TagOrElementLocationMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[17Jan2026 20:54:33.663] [main/WARN] [net.minecraft.SystemReport/]: Failed retrieving info for group hardware
+java.lang.NoClassDefFoundError: com/sun/jna/Platform
+	at oshi.SystemInfo.<clinit>(SystemInfo.java:62) ~[oshi-core-5.8.5.jar%2367!/:5.8.5]
+	at net.minecraft.SystemReport.m_143564_(SystemReport.java:52) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at net.minecraft.SystemReport.m_143516_(SystemReport.java:82) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at net.minecraft.SystemReport.<init>(SystemReport.java:52) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at net.minecraft.CrashReport.<init>(CrashReport.java:31) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at net.minecraft.CrashReport.m_127529_(CrashReport.java:216) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at net.minecraft.server.Main.main(Main.java:105) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.2.jar%2365!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.ClassNotFoundException: com.sun.jna.Platform
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 20 more
+[17Jan2026 20:54:33.881] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (34.31 s after launch)
+[17Jan2026 20:54:34.407] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[17Jan2026 20:54:34.409] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[17Jan2026 20:54:34.637] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[17Jan2026 20:54:34.643] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[17Jan2026 20:54:34.984] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[17Jan2026 20:54:34.986] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[17Jan2026 20:54:34.986] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into m_60823_ from com.abdelaziz.canary.mixin.block.flatten_states.BlockStateBaseMixin
+[17Jan2026 20:54:34.987] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[17Jan2026 20:54:34.987] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[17Jan2026 20:54:34.988] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getAllFlags from com.abdelaziz.canary.mixin.util.block_tracking.BlockStateBaseMixin
+[17Jan2026 20:54:35.870] [main/INFO] [mixin/]: Mixing server.MixinPlayer from nochatreports.mixins.json into net.minecraft.world.entity.player.Player
+[17Jan2026 20:54:38.156] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 4263 milliseconds
+[17Jan2026 20:54:39.400] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[17Jan2026 20:54:39.402] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[17Jan2026 20:54:42.017] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[17Jan2026 20:54:42.327] [main/INFO] [quark/]: TerraBlender not found, using injection method
+[17Jan2026 20:54:43.809] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Registering server started event...
+[17Jan2026 20:54:43.865] [modloading-worker-0/INFO] [mixin/]: Mixing server.MixinPlayerList from nochatreports.mixins.json into net.minecraft.server.players.PlayerList
+[17Jan2026 20:54:44.506] [modloading-worker-0/WARN] [mixin/]: @Redirect conflict. Skipping modernfix-forge.mixins.json:perf.datapack_reload_exceptions.LootTableManagerMixin->@Redirect::logWithoutStacktrace(Lorg/slf4j/Logger;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V with priority 2000, already redirected by railways-common.mixins.json:MixinLootTables->@Redirect::snr$error2(Lorg/slf4j/Logger;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V with priority 10000
+[17Jan2026 20:54:44.930] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[17Jan2026 20:54:44.934] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[17Jan2026 20:54:46.338] [modloading-worker-0/INFO] [Chunk Pregenerator/]: Loading Plugin: [name=JourneyMap]
+[17Jan2026 20:54:46.340] [modloading-worker-0/INFO] [Chunk Pregenerator/]: Loading Plugin: [name=Configured]
+[17Jan2026 20:54:46.606] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[17Jan2026 20:54:46.904] [modloading-worker-0/INFO] [railways/]: Registered bogey styles from railways
+[17Jan2026 20:54:46.932] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod enchantinginfuser
+[17Jan2026 20:54:47.036] [modloading-worker-0/INFO] [railways/]: Registering data fixers
+[17Jan2026 20:54:47.093] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[17Jan2026 20:54:47.132] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[17Jan2026 20:54:47.133] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[17Jan2026 20:54:47.134] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[17Jan2026 20:54:47.139] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[17Jan2026 20:54:47.141] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[17Jan2026 20:54:47.194] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id itemfilters:main/14e7fa1454283aec8ae811ef844ada28
+[17Jan2026 20:54:47.195] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id itemfilters:main/8f6a899247753217b9d86ab427a2b279
+[17Jan2026 20:54:47.196] [modloading-worker-0/INFO] [ModernFix/]: Bypassed Mojang DFU
+[17Jan2026 20:54:47.197] [modloading-worker-0/INFO] [ModernFix/]: Instantiating Mojang DFU
+[17Jan2026 20:54:47.239] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[17Jan2026 20:54:47.257] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[17Jan2026 20:54:47.264] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
+[17Jan2026 20:54:47.265] [modloading-worker-0/INFO] [KubeJS/]: Loaded dev.properties
+[17Jan2026 20:54:47.266] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[17Jan2026 20:54:47.266] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs_mekanism
+[17Jan2026 20:54:47.304] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source custommachinery
+[17Jan2026 20:54:47.362] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs_thermal
+[17Jan2026 20:54:47.369] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source ftbchunks
+[17Jan2026 20:54:47.369] [modloading-worker-0/ERROR] [KubeJS/]: Failed to load plugin dev.ftb.mods.ftbchunks.integration.kubejs.FTBChunksKubeJSPlugin from source ftbchunks: java.lang.ClassNotFoundException: dev.ftb.mods.ftbchunks.integration.kubejs.FTBChunksKubeJSPlugin
+[17Jan2026 20:54:47.372] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source ftbquests
+[17Jan2026 20:54:47.375] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source jaopca
+[17Jan2026 20:54:47.376] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs_create
+[17Jan2026 20:54:47.467] [modloading-worker-0/INFO] [KubeJS/]: Done in 224.7 ms
+[17Jan2026 20:54:47.837] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
+[17Jan2026 20:54:47.839] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[17Jan2026 20:54:47.851] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.19.2
+[17Jan2026 20:54:48.035] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.198 s
+[17Jan2026 20:54:48.689] [modloading-worker-0/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[17Jan2026 20:54:48.728] [Worker-Bootstrap-1/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 27 Datafixer optimizations took 23 milliseconds
+[17Jan2026 20:54:48.804] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:script.js:3: Just think of Monika from now on. Just Monika. Just Monika. Just Monika.
+[17Jan2026 20:54:48.827] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:script.js:94: Loaded Java class 'dev.architectury.platform.forge.EventBuses'
+[17Jan2026 20:54:48.834] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:script.js:95: Loaded Java class 'mekanism.common.registration.impl.GasDeferredRegister'
+[17Jan2026 20:54:48.843] [modloading-worker-0/INFO] [KubeJS Startup/]: startup_scripts:script.js:96: Loaded Java class 'mekanism.common.registration.impl.SlurryDeferredRegister'
+[17Jan2026 20:54:48.858] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:script.js in 0.192 s
+[17Jan2026 20:54:48.866] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 0.822 s
+[17Jan2026 20:54:48.981] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
+[17Jan2026 20:54:48.987] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
+[17Jan2026 20:54:49.213] [modloading-worker-0/INFO] [railways/]: Registering tracks for Hex Casting
+[17Jan2026 20:54:49.216] [modloading-worker-0/INFO] [railways/]: Registering tracks for Oh The Biomes You'll Go
+[17Jan2026 20:54:49.219] [modloading-worker-0/INFO] [railways/]: Registering tracks for Blue Skies
+[17Jan2026 20:54:49.220] [modloading-worker-0/INFO] [railways/]: Registering tracks for Twilight Forest
+[17Jan2026 20:54:49.226] [modloading-worker-0/INFO] [railways/]: Registering tracks for Biomes O' Plenty
+[17Jan2026 20:54:50.003] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_map_data
+[17Jan2026 20:54:50.008] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_chunk_change
+[17Jan2026 20:54:50.017] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:teleport_from_map
+[17Jan2026 20:54:50.021] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:sync_tx
+[17Jan2026 20:54:50.029] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:update_force_load_expiry
+[17Jan2026 20:54:50.032] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:server_config_request
+[17Jan2026 20:54:50.075] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+[17Jan2026 20:54:50.077] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
+[17Jan2026 20:54:50.422] [modloading-worker-0/INFO] [mixin/]: Mixing server.MixinServerGamePacketListenerImpl from nochatreports.mixins.json into net.minecraft.server.network.ServerGamePacketListenerImpl
+[17Jan2026 20:54:51.376] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:submit_task
+[17Jan2026 20:54:51.381] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_reward
+[17Jan2026 20:54:51.388] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:get_emergency_items
+[17Jan2026 20:54:51.394] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_all_rewards
+[17Jan2026 20:54:51.395] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_choice_reward
+[17Jan2026 20:54:51.399] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_pinned
+[17Jan2026 20:54:51.405] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_chapter_pinned
+[17Jan2026 20:54:51.412] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_editing_mode
+[17Jan2026 20:54:51.413] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:force_save
+[17Jan2026 20:54:51.419] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:set_custom_image
+[17Jan2026 20:54:51.433] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:task_screen_config_resp
+[17Jan2026 20:54:51.436] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_progress
+[17Jan2026 20:54:51.439] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_object
+[17Jan2026 20:54:51.445] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_task_at
+[17Jan2026 20:54:51.448] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:delete_object
+[17Jan2026 20:54:51.449] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:edit_object
+[17Jan2026 20:54:51.453] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter
+[17Jan2026 20:54:51.455] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_quest
+[17Jan2026 20:54:51.458] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_chapter_group
+[17Jan2026 20:54:51.459] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter_group
+[17Jan2026 20:54:51.464] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_quest
+[17Jan2026 20:54:51.469] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_chapter_image
+[17Jan2026 20:54:51.471] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:sync_structures_request
+[17Jan2026 20:54:51.540] [modloading-worker-0/INFO] [com.aizistral.nochatreports.NoChatReports/]: KONNICHIWA ZA WARUDO!
+[17Jan2026 20:54:51.541] [modloading-worker-0/INFO] [com.aizistral.nochatreports.NoChatReports/]: Default JVM text encoding is: UTF-8
+[17Jan2026 20:54:51.549] [modloading-worker-0/INFO] [com.aizistral.nochatreports.NoChatReports/]: Reading config file NoChatReports/NCR-Common.json...
+[17Jan2026 20:54:51.558] [modloading-worker-0/INFO] [com.aizistral.nochatreports.NoChatReports/]: Writing config file NoChatReports/NCR-Common.json...
+[17Jan2026 20:54:51.615] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id wands:key_packet
+[17Jan2026 20:54:51.616] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id wands:palette_packet
+[17Jan2026 20:54:51.616] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id wands:wand_packet
+[17Jan2026 20:54:51.618] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id wands:pos_packet
+[17Jan2026 20:54:51.620] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id wands:global_settings_packet
+[17Jan2026 20:54:52.284] [modloading-worker-0/INFO] [mixin/]: Mixing common.MixinServerStatus from nochatreports.mixins.json into net.minecraft.network.protocol.status.ServerStatus
+[17Jan2026 20:54:52.587] [modloading-worker-0/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/musical-meme/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23305!/assets/.mcassetsroot' uses unexpected schema
+[17Jan2026 20:54:52.591] [modloading-worker-0/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/musical-meme/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23305!/data/.mcassetsroot' uses unexpected schema
+[17Jan2026 20:54:52.650] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[17Jan2026 20:54:52.774] [modloading-worker-0/INFO] [thelm.jaopca.data.DataCollector/]: Pack supplier thelm.jaopca.compat.openloader.OpenLoaderPackSupplier has missing mod dependencies, skipping
+[17Jan2026 20:54:52.857] [modloading-worker-0/ERROR] [net.minecraft.server.packs.resources.MultiPackResourceManager/]: Failed to get filter section from pack server-1.19.2-20220805.130853-srg.jar
+[17Jan2026 20:54:52.866] [modloading-worker-0/ERROR] [net.minecraft.server.packs.resources.MultiPackResourceManager/]: Failed to get filter section from pack kubejs
+[17Jan2026 20:54:52.896] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.SpiralSpiresModule
+[17Jan2026 20:54:52.926] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.PermafrostModule
+[17Jan2026 20:54:52.929] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NoMoreLavaPocketsModule
+[17Jan2026 20:54:52.934] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NewStoneTypesModule
+[17Jan2026 20:54:52.936] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NetherObsidianSpikesModule
+[17Jan2026 20:54:52.944] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.MonsterBoxModule
+[17Jan2026 20:54:52.951] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.GlimmeringWealdModule
+[17Jan2026 20:54:52.969] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.FairyRingsModule
+[17Jan2026 20:54:52.972] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.CorundumModule
+[17Jan2026 20:54:52.974] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.ChorusVegetationModule
+[17Jan2026 20:54:52.979] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BlossomTreesModule
+[17Jan2026 20:54:52.982] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BigStoneClustersModule
+[17Jan2026 20:54:52.989] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.AzaleaWoodModule
+[17Jan2026 20:54:52.990] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.AncientWoodModule
+[17Jan2026 20:54:53.000] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ZombieVillagersOnNormalModule
+[17Jan2026 20:54:53.004] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VillagersFollowEmeraldsModule
+[17Jan2026 20:54:53.005] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VexesDieWithTheirMastersModule
+[17Jan2026 20:54:53.008] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.UtilityRecipesModule
+[17Jan2026 20:54:53.011] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SpongeOnWaterPlacementModule
+[17Jan2026 20:54:53.012] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SnowGolemPlayerHeadsModule
+[17Jan2026 20:54:53.214] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SlimesToMagmaCubesModule
+[17Jan2026 20:54:53.214] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SlabsToBlocksModule
+[17Jan2026 20:54:53.218] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SimpleHarvestModule
+[17Jan2026 20:54:53.417] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SignEditingModule
+[17Jan2026 20:54:53.420] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ShulkerPackingModule
+[17Jan2026 20:54:53.423] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SaferCreaturesModule
+[17Jan2026 20:54:53.426] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReplaceScaffoldingModule
+[17Jan2026 20:54:53.426] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.RenewableSporeBlossomsModule
+[17Jan2026 20:54:53.430] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReacharoundPlacingModule
+[17Jan2026 20:54:53.437] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PoisonPotatoUsageModule
+[17Jan2026 20:54:53.439] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PigLittersModule
+[17Jan2026 20:54:53.442] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PatTheDogsModule
+[17Jan2026 20:54:53.444] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.NoDurabilityOnCosmeticsModule
+[17Jan2026 20:54:53.445] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MoreNoteBlockSoundsModule
+[17Jan2026 20:54:53.445] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MoreBannerLayersModule
+[17Jan2026 20:54:53.448] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.LockRotationModule
+[17Jan2026 20:54:53.450] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.HorsesSwimModule
+[17Jan2026 20:54:53.451] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.HoeHarvestingModule
+[17Jan2026 20:54:53.454] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GrabChickensModule
+[17Jan2026 20:54:53.463] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GoldToolsHaveFortuneModule
+[17Jan2026 20:54:53.465] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GlassShardModule
+[17Jan2026 20:54:53.470] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EnhancedLaddersModule
+[17Jan2026 20:54:53.471] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EmotesModule
+[17Jan2026 20:54:53.481] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DyeableItemFramesModule
+[17Jan2026 20:54:53.483] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DragonScalesModule
+[17Jan2026 20:54:53.487] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DoubleDoorOpeningModule
+[17Jan2026 20:54:53.489] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CoralOnCactusModule
+[17Jan2026 20:54:53.492] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CompassesWorkEverywhereModule
+[17Jan2026 20:54:53.493] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CampfiresBoostElytraModule
+[17Jan2026 20:54:53.493] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.BetterElytraRocketModule
+[17Jan2026 20:54:53.499] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.AutomaticRecipeUnlockModule
+[17Jan2026 20:54:53.501] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ArmedArmorStandsModule
+[17Jan2026 20:54:53.502] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.TrowelModule
+[17Jan2026 20:54:53.504] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.TorchArrowModule
+[17Jan2026 20:54:53.510] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SlimeInABucketModule
+[17Jan2026 20:54:53.525] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SkullPikesModule
+[17Jan2026 20:54:53.530] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SeedPouchModule
+[17Jan2026 20:54:53.541] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PickarangModule
+[17Jan2026 20:54:53.557] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PathfinderMapsModule
+[17Jan2026 20:54:53.569] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ParrotEggsModule
+[17Jan2026 20:54:53.575] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.EndermoshMusicDiscModule
+[17Jan2026 20:54:53.581] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ColorRunesModule
+[17Jan2026 20:54:53.584] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BundleRecipeModule
+[17Jan2026 20:54:53.586] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BottledCloudModule
+[17Jan2026 20:54:53.593] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BeaconRedirectionModule
+[17Jan2026 20:54:53.598] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AncientTomesModule
+[17Jan2026 20:54:53.605] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AmbientDiscsModule
+[17Jan2026 20:54:53.608] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AbacusModule
+[17Jan2026 20:54:53.617] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.WraithModule
+[17Jan2026 20:54:53.624] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ToretoiseModule
+[17Jan2026 20:54:53.628] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.StonelingsModule
+[17Jan2026 20:54:53.636] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ShibaModule
+[17Jan2026 20:54:53.642] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.FoxhoundModule
+[17Jan2026 20:54:53.644] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ForgottenModule
+[17Jan2026 20:54:53.658] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.CrabsModule
+[17Jan2026 20:54:53.663] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.QuickArmorSwappingModule
+[17Jan2026 20:54:53.668] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ItemSharingModule
+[17Jan2026 20:54:53.673] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.InventorySortingModule
+[17Jan2026 20:54:53.678] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.HotbarChangerModule
+[17Jan2026 20:54:53.686] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ExpandedItemInteractionsModule
+[17Jan2026 20:54:53.688] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.EasyTransferingModule
+[17Jan2026 20:54:53.694] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.AutomaticToolRestockModule
+[17Jan2026 20:54:53.704] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.SpawnerReplacerModule
+[17Jan2026 20:54:53.707] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.OverlayShaderModule
+[17Jan2026 20:54:53.711] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.NarratorReadoutModule
+[17Jan2026 20:54:53.712] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.GameNerfsModule
+[17Jan2026 20:54:53.716] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.EnchantmentsBegoneModule
+[17Jan2026 20:54:53.719] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.EnchantmentPredicatesModule
+[17Jan2026 20:54:53.720] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.AdjustableChatModule
+[17Jan2026 20:54:53.727] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.WoolShutsUpMinecartsModule
+[17Jan2026 20:54:53.738] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.VariantAnimalTexturesModule
+[17Jan2026 20:54:53.750] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsesForCursesModule
+[17Jan2026 20:54:53.763] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsageTickerModule
+[17Jan2026 20:54:53.765] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.SoulCandlesModule
+[17Jan2026 20:54:53.766] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.MicrocraftingHelperModule
+[17Jan2026 20:54:53.772] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.LongRangePickBlockModule
+[17Jan2026 20:54:53.775] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ImprovedTooltipsModule
+[17Jan2026 20:54:53.776] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.GreenerGrassModule
+[17Jan2026 20:54:53.780] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ElytraIndicatorModule
+[17Jan2026 20:54:53.784] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ChestSearchingModule
+[17Jan2026 20:54:53.791] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.CameraModule
+[17Jan2026 20:54:53.794] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.BackButtonKeybindModule
+[17Jan2026 20:54:53.794] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.AutoWalkKeybindModule
+[17Jan2026 20:54:53.795] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.WoodenPostsModule
+[17Jan2026 20:54:53.799] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalSlabsModule
+[17Jan2026 20:54:53.819] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalPlanksModule
+[17Jan2026 20:54:53.820] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantLaddersModule
+[17Jan2026 20:54:53.822] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantFurnacesModule
+[17Jan2026 20:54:53.834] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantChestsModule
+[17Jan2026 20:54:53.840] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantBookshelvesModule
+[17Jan2026 20:54:53.842] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ThatchModule
+[17Jan2026 20:54:53.845] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SturdyStoneModule
+[17Jan2026 20:54:53.850] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.StoolsModule
+[17Jan2026 20:54:53.850] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SoulSandstoneModule
+[17Jan2026 20:54:53.860] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShinglesModule
+[17Jan2026 20:54:53.861] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShearVinesModule
+[17Jan2026 20:54:53.867] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RopeModule
+[17Jan2026 20:54:53.874] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RawMetalBricksModule
+[17Jan2026 20:54:53.880] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.NetherBrickFenceGateModule
+[17Jan2026 20:54:53.882] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreStoneVariantsModule
+[17Jan2026 20:54:53.893] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MorePottedPlantsModule
+[17Jan2026 20:54:53.895] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreMudBlocksModule
+[17Jan2026 20:54:53.898] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreBrickTypesModule
+[17Jan2026 20:54:53.900] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MidoriModule
+[17Jan2026 20:54:53.903] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.LeafCarpetModule
+[17Jan2026 20:54:53.913] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.JapanesePaletteModule
+[17Jan2026 20:54:53.917] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.IndustrialPaletteModule
+[17Jan2026 20:54:53.923] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.HollowLogsModule
+[17Jan2026 20:54:53.931] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.HedgesModule
+[17Jan2026 20:54:53.936] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GrateModule
+[17Jan2026 20:54:53.944] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GoldBarsModule
+[17Jan2026 20:54:53.957] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GlassItemFrameModule
+[17Jan2026 20:54:53.961] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.FramedGlassModule
+[17Jan2026 20:54:53.965] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.DuskboundBlocksModule
+[17Jan2026 20:54:53.969] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CompressedBlocksModule
+[17Jan2026 20:54:53.970] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CelebratoryLampsModule
+[17Jan2026 20:54:53.976] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.BambooBackportModule
+[17Jan2026 20:54:53.980] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.RedstoneRandomizerModule
+[17Jan2026 20:54:53.987] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.PistonsMoveTileEntitiesModule
+[17Jan2026 20:54:53.988] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ObsidianPlateModule
+[17Jan2026 20:54:53.988] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.MetalButtonsModule
+[17Jan2026 20:54:53.995] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.JukeboxAutomationModule
+[17Jan2026 20:54:53.996] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.IronRodModule
+[17Jan2026 20:54:54.005] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.GravisandModule
+[17Jan2026 20:54:54.014] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.FeedingTroughModule
+[17Jan2026 20:54:54.023] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.EnderWatcherModule
+[17Jan2026 20:54:54.026] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.DispensersPlaceBlocksModule
+[17Jan2026 20:54:54.030] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChuteModule
+[17Jan2026 20:54:54.035] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChainsConnectBlocksModule
+[17Jan2026 20:54:54.036] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TotemOfHoldingModule
+[17Jan2026 20:54:54.038] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TinyPotatoModule
+[17Jan2026 20:54:54.044] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.PipesModule
+[17Jan2026 20:54:54.060] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MatrixEnchantingModule
+[17Jan2026 20:54:54.066] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MagnetsModule
+[17Jan2026 20:54:54.074] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.CrateModule
+[17Jan2026 20:54:54.078] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.BackpackModule
+[17Jan2026 20:54:54.084] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONSTRUCT
+[17Jan2026 20:54:54.311] [modloading-worker-0/INFO] [quark/]: Loading Module Redstone Randomizer
+[17Jan2026 20:54:54.312] [modloading-worker-0/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[17Jan2026 20:54:54.314] [modloading-worker-0/INFO] [quark/]: Loading Module Obsidian Plate
+[17Jan2026 20:54:54.315] [modloading-worker-0/INFO] [quark/]: Loading Module Metal Buttons
+[17Jan2026 20:54:54.315] [modloading-worker-0/INFO] [quark/]: Loading Module Jukebox Automation
+[17Jan2026 20:54:54.317] [modloading-worker-0/INFO] [quark/]: Loading Module Iron Rod
+[17Jan2026 20:54:54.318] [modloading-worker-0/INFO] [quark/]: Loading Module Gravisand
+[17Jan2026 20:54:54.320] [modloading-worker-0/INFO] [quark/]: Loading Module Feeding Trough
+[17Jan2026 20:54:54.325] [modloading-worker-0/INFO] [quark/]: Loading Module Ender Watcher
+[17Jan2026 20:54:54.327] [modloading-worker-0/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[17Jan2026 20:54:54.328] [modloading-worker-0/INFO] [quark/]: Loading Module Chute
+[17Jan2026 20:54:54.329] [modloading-worker-0/INFO] [quark/]: Loading Module Chains Connect Blocks
+[17Jan2026 20:54:54.329] [modloading-worker-0/INFO] [quark/]: Loading Module Wooden Posts
+[17Jan2026 20:54:54.330] [modloading-worker-0/INFO] [quark/]: Loading Module Vertical Slabs
+[17Jan2026 20:54:54.331] [modloading-worker-0/INFO] [quark/]: Loading Module Vertical Planks
+[17Jan2026 20:54:54.332] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Ladders
+[17Jan2026 20:54:54.332] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Furnaces
+[17Jan2026 20:54:54.332] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Chests
+[17Jan2026 20:54:54.337] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Bookshelves
+[17Jan2026 20:54:54.337] [modloading-worker-0/INFO] [quark/]: Loading Module Thatch
+[17Jan2026 20:54:54.337] [modloading-worker-0/INFO] [quark/]: Loading Module Sturdy Stone
+[17Jan2026 20:54:54.339] [modloading-worker-0/INFO] [quark/]: Loading Module Stools
+[17Jan2026 20:54:54.343] [modloading-worker-0/INFO] [quark/]: Loading Module Soul Sandstone
+[17Jan2026 20:54:54.343] [modloading-worker-0/INFO] [quark/]: Loading Module Shingles
+[17Jan2026 20:54:54.343] [modloading-worker-0/INFO] [quark/]: Loading Module Shear Vines
+[17Jan2026 20:54:54.347] [modloading-worker-0/INFO] [quark/]: Loading Module Rope
+[17Jan2026 20:54:54.347] [modloading-worker-0/INFO] [quark/]: Loading Module Raw Metal Bricks
+[17Jan2026 20:54:54.347] [modloading-worker-0/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[17Jan2026 20:54:54.347] [modloading-worker-0/INFO] [quark/]: Loading Module More Stone Variants
+[17Jan2026 20:54:54.347] [modloading-worker-0/INFO] [quark/]: Loading Module More Potted Plants
+[17Jan2026 20:54:54.348] [modloading-worker-0/INFO] [quark/]: Loading Module More Mud Blocks
+[17Jan2026 20:54:54.348] [modloading-worker-0/INFO] [quark/]: Loading Module More Brick Types
+[17Jan2026 20:54:54.348] [modloading-worker-0/INFO] [quark/]: Loading Module Midori
+[17Jan2026 20:54:54.348] [modloading-worker-0/INFO] [quark/]: Loading Module Leaf Carpet
+[17Jan2026 20:54:54.348] [modloading-worker-0/INFO] [quark/]: Loading Module Japanese Palette
+[17Jan2026 20:54:54.348] [modloading-worker-0/INFO] [quark/]: Loading Module Industrial Palette
+[17Jan2026 20:54:54.348] [modloading-worker-0/INFO] [quark/]: Loading Module Hollow Logs
+[17Jan2026 20:54:54.354] [modloading-worker-0/INFO] [quark/]: Loading Module Hedges
+[17Jan2026 20:54:54.354] [modloading-worker-0/INFO] [quark/]: Loading Module Grate
+[17Jan2026 20:54:54.354] [modloading-worker-0/INFO] [quark/]: Loading Module Gold Bars
+[17Jan2026 20:54:54.354] [modloading-worker-0/INFO] [quark/]: Loading Module Glass Item Frame
+[17Jan2026 20:54:54.354] [modloading-worker-0/INFO] [quark/]: Loading Module Framed Glass
+[17Jan2026 20:54:54.355] [modloading-worker-0/INFO] [quark/]: Loading Module Duskbound Blocks
+[17Jan2026 20:54:54.355] [modloading-worker-0/INFO] [quark/]: Loading Module Compressed Blocks
+[17Jan2026 20:54:54.355] [modloading-worker-0/INFO] [quark/]: Loading Module Celebratory Lamps
+[17Jan2026 20:54:54.355] [modloading-worker-0/INFO] [quark/]: Loading Module Bamboo Backport
+[17Jan2026 20:54:54.355] [modloading-worker-0/INFO] [quark/]: Loading Module Quick Armor Swapping
+[17Jan2026 20:54:54.359] [modloading-worker-0/INFO] [quark/]: Loading Module Item Sharing
+[17Jan2026 20:54:54.359] [modloading-worker-0/INFO] [quark/]: Loading Module Inventory Sorting
+[17Jan2026 20:54:54.359] [modloading-worker-0/INFO] [quark/]: Loading Module Hotbar Changer
+[17Jan2026 20:54:54.360] [modloading-worker-0/INFO] [quark/]: Loading Module Expanded Item Interactions
+[17Jan2026 20:54:54.360] [modloading-worker-0/INFO] [quark/]: Loading Module Easy Transfering
+[17Jan2026 20:54:54.367] [modloading-worker-0/INFO] [quark/]: Loading Module Automatic Tool Restock
+[17Jan2026 20:54:54.369] [modloading-worker-0/INFO] [quark/]: Loading Module Trowel
+[17Jan2026 20:54:54.369] [modloading-worker-0/INFO] [quark/]: Loading Module Torch Arrow
+[17Jan2026 20:54:54.369] [modloading-worker-0/INFO] [quark/]: Loading Module Slime In A Bucket
+[17Jan2026 20:54:54.370] [modloading-worker-0/INFO] [quark/]: Loading Module Skull Pikes
+[17Jan2026 20:54:54.372] [modloading-worker-0/INFO] [quark/]: Loading Module Seed Pouch
+[17Jan2026 20:54:54.373] [modloading-worker-0/INFO] [quark/]: Loading Module Pickarang
+[17Jan2026 20:54:54.374] [modloading-worker-0/INFO] [quark/]: Loading Module Pathfinder Maps
+[17Jan2026 20:54:54.377] [modloading-worker-0/INFO] [quark/]: Loading Module Parrot Eggs
+[17Jan2026 20:54:54.390] [modloading-worker-0/INFO] [quark/]: Loading Module Endermosh Music Disc
+[17Jan2026 20:54:54.391] [modloading-worker-0/INFO] [quark/]: Loading Module Color Runes
+[17Jan2026 20:54:54.401] [modloading-worker-0/INFO] [quark/]: Loading Module Bundle Recipe
+[17Jan2026 20:54:54.401] [modloading-worker-0/INFO] [quark/]: Loading Module Bottled Cloud
+[17Jan2026 20:54:54.402] [modloading-worker-0/INFO] [quark/]: Loading Module Beacon Redirection
+[17Jan2026 20:54:54.402] [modloading-worker-0/INFO] [quark/]: Loading Module Ancient Tomes
+[17Jan2026 20:54:54.421] [modloading-worker-0/INFO] [quark/]: Loading Module Ambient Discs
+[17Jan2026 20:54:54.423] [modloading-worker-0/INFO] [quark/]: Loading Module Abacus
+[17Jan2026 20:54:54.423] [modloading-worker-0/INFO] [quark/]: Loading Module Zombie Villagers On Normal
+[17Jan2026 20:54:54.427] [modloading-worker-0/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[17Jan2026 20:54:54.428] [modloading-worker-0/INFO] [quark/]: Loading Module Vexes Die With Their Masters
+[17Jan2026 20:54:54.433] [modloading-worker-0/INFO] [quark/]: Loading Module Utility Recipes
+[17Jan2026 20:54:54.439] [modloading-worker-0/INFO] [quark/]: Loading Module Sponge On Water Placement
+[17Jan2026 20:54:54.440] [modloading-worker-0/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[17Jan2026 20:54:54.443] [modloading-worker-0/INFO] [quark/]: Loading Module Slimes To Magma Cubes
+[17Jan2026 20:54:54.445] [modloading-worker-0/INFO] [quark/]: Loading Module Slabs To Blocks
+[17Jan2026 20:54:54.451] [modloading-worker-0/INFO] [quark/]: Loading Module Simple Harvest
+[17Jan2026 20:54:54.457] [modloading-worker-0/INFO] [quark/]: Loading Module Sign Editing
+[17Jan2026 20:54:54.458] [modloading-worker-0/INFO] [quark/]: Loading Module Shulker Packing
+[17Jan2026 20:54:54.461] [modloading-worker-0/INFO] [quark/]: Loading Module Safer Creatures
+[17Jan2026 20:54:54.466] [modloading-worker-0/INFO] [quark/]: Loading Module Replace Scaffolding
+[17Jan2026 20:54:54.469] [modloading-worker-0/INFO] [quark/]: Loading Module Renewable Spore Blossoms
+[17Jan2026 20:54:54.473] [modloading-worker-0/INFO] [quark/]: Loading Module Reacharound Placing
+[17Jan2026 20:54:54.477] [modloading-worker-0/INFO] [quark/]: Loading Module Poison Potato Usage
+[17Jan2026 20:54:54.478] [modloading-worker-0/INFO] [quark/]: Loading Module Pig Litters
+[17Jan2026 20:54:54.482] [modloading-worker-0/INFO] [quark/]: Loading Module Pat The Dogs
+[17Jan2026 20:54:54.485] [modloading-worker-0/INFO] [quark/]: Loading Module No Durability On Cosmetics
+[17Jan2026 20:54:54.487] [modloading-worker-0/INFO] [quark/]: Loading Module More Note Block Sounds
+[17Jan2026 20:54:54.493] [modloading-worker-0/INFO] [quark/]: Loading Module More Banner Layers
+[17Jan2026 20:54:54.496] [modloading-worker-0/INFO] [quark/]: Loading Module Lock Rotation
+[17Jan2026 20:54:54.501] [modloading-worker-0/INFO] [quark/]: Loading Module Horses Swim
+[17Jan2026 20:54:54.502] [modloading-worker-0/INFO] [quark/]: Loading Module Hoe Harvesting
+[17Jan2026 20:54:54.503] [modloading-worker-0/INFO] [quark/]: Loading Module Grab Chickens
+[17Jan2026 20:54:54.507] [modloading-worker-0/INFO] [quark/]: Loading Module Gold Tools Have Fortune
+[17Jan2026 20:54:54.508] [modloading-worker-0/INFO] [quark/]: Loading Module Glass Shard
+[17Jan2026 20:54:54.509] [modloading-worker-0/INFO] [quark/]: Loading Module Enhanced Ladders
+[17Jan2026 20:54:54.513] [modloading-worker-0/INFO] [quark/]: Loading Module Emotes
+[17Jan2026 20:54:54.513] [modloading-worker-0/INFO] [quark/]: Loading Module Dyeable Item Frames
+[17Jan2026 20:54:54.514] [modloading-worker-0/INFO] [quark/]: Loading Module Dragon Scales
+[17Jan2026 20:54:54.516] [modloading-worker-0/INFO] [quark/]: Loading Module Double Door Opening
+[17Jan2026 20:54:54.518] [modloading-worker-0/INFO] [quark/]: Loading Module Coral On Cactus
+[17Jan2026 20:54:54.518] [modloading-worker-0/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[17Jan2026 20:54:54.519] [modloading-worker-0/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[17Jan2026 20:54:54.522] [modloading-worker-0/INFO] [quark/]: Loading Module Better Elytra Rocket
+[17Jan2026 20:54:54.524] [modloading-worker-0/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[17Jan2026 20:54:54.528] [modloading-worker-0/INFO] [quark/]: Loading Module Armed Armor Stands
+[17Jan2026 20:54:54.529] [modloading-worker-0/INFO] [quark/]: Loading Module Spiral Spires
+[17Jan2026 20:54:54.533] [modloading-worker-0/INFO] [quark/]: Loading Module Permafrost
+[17Jan2026 20:54:54.533] [modloading-worker-0/INFO] [quark/]: Loading Module No More Lava Pockets
+[17Jan2026 20:54:54.533] [modloading-worker-0/INFO] [quark/]: Loading Module New Stone Types
+[17Jan2026 20:54:54.535] [modloading-worker-0/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[17Jan2026 20:54:54.536] [modloading-worker-0/INFO] [quark/]: Loading Module Monster Box
+[17Jan2026 20:54:54.538] [modloading-worker-0/INFO] [quark/]: Loading Module Glimmering Weald
+[17Jan2026 20:54:54.540] [modloading-worker-0/INFO] [quark/]: Loading Module Fairy Rings
+[17Jan2026 20:54:54.540] [modloading-worker-0/INFO] [quark/]: Loading Module Corundum
+[17Jan2026 20:54:54.542] [modloading-worker-0/INFO] [quark/]: Loading Module Chorus Vegetation
+[17Jan2026 20:54:54.542] [modloading-worker-0/INFO] [quark/]: Loading Module Blossom Trees
+[17Jan2026 20:54:54.543] [modloading-worker-0/INFO] [quark/]: Loading Module Big Stone Clusters
+[17Jan2026 20:54:54.544] [modloading-worker-0/INFO] [quark/]: Loading Module Azalea Wood
+[17Jan2026 20:54:54.546] [modloading-worker-0/INFO] [quark/]: Loading Module Ancient Wood
+[17Jan2026 20:54:54.547] [modloading-worker-0/INFO] [quark/]: Loading Module Wraith
+[17Jan2026 20:54:54.550] [modloading-worker-0/INFO] [quark/]: Loading Module Toretoise
+[17Jan2026 20:54:54.555] [modloading-worker-0/INFO] [quark/]: Loading Module Stonelings
+[17Jan2026 20:54:54.563] [modloading-worker-0/INFO] [quark/]: Loading Module Shiba
+[17Jan2026 20:54:54.565] [modloading-worker-0/INFO] [quark/]: Loading Module Foxhound
+[17Jan2026 20:54:54.573] [modloading-worker-0/INFO] [quark/]: Loading Module Forgotten
+[17Jan2026 20:54:54.574] [modloading-worker-0/INFO] [quark/]: Loading Module Crabs
+[17Jan2026 20:54:54.579] [modloading-worker-0/INFO] [quark/]: Loading Module Wool Shuts Up Minecarts
+[17Jan2026 20:54:54.579] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Animal Textures
+[17Jan2026 20:54:54.580] [modloading-worker-0/INFO] [quark/]: Loading Module Uses For Curses
+[17Jan2026 20:54:54.580] [modloading-worker-0/INFO] [quark/]: Loading Module Usage Ticker
+[17Jan2026 20:54:54.580] [modloading-worker-0/INFO] [quark/]: Loading Module Soul Candles
+[17Jan2026 20:54:54.581] [modloading-worker-0/INFO] [quark/]: Loading Module Microcrafting Helper
+[17Jan2026 20:54:54.581] [modloading-worker-0/INFO] [quark/]: Loading Module Long Range Pick Block
+[17Jan2026 20:54:54.582] [modloading-worker-0/INFO] [quark/]: Loading Module Improved Tooltips
+[17Jan2026 20:54:54.582] [modloading-worker-0/INFO] [quark/]: Loading Module Greener Grass
+[17Jan2026 20:54:54.583] [modloading-worker-0/INFO] [quark/]: Loading Module Elytra Indicator
+[17Jan2026 20:54:54.583] [modloading-worker-0/INFO] [quark/]: Loading Module Chest Searching
+[17Jan2026 20:54:54.583] [modloading-worker-0/INFO] [quark/]: Loading Module Camera
+[17Jan2026 20:54:54.584] [modloading-worker-0/INFO] [quark/]: Loading Module Back Button Keybind
+[17Jan2026 20:54:54.584] [modloading-worker-0/INFO] [quark/]: Loading Module Auto Walk Keybind
+[17Jan2026 20:54:54.585] [modloading-worker-0/INFO] [quark/]: Loading Module Spawner Replacer
+[17Jan2026 20:54:54.585] [modloading-worker-0/INFO] [quark/]: Loading Module Overlay Shader
+[17Jan2026 20:54:54.586] [modloading-worker-0/INFO] [quark/]: Loading Module Narrator Readout
+[17Jan2026 20:54:54.587] [modloading-worker-0/INFO] [quark/]: Loading Module Game Nerfs
+[17Jan2026 20:54:54.587] [modloading-worker-0/INFO] [quark/]: Loading Module Enchantments Begone
+[17Jan2026 20:54:54.588] [modloading-worker-0/INFO] [quark/]: Loading Module Enchantment Predicates
+[17Jan2026 20:54:54.588] [modloading-worker-0/INFO] [quark/]: Loading Module Adjustable Chat
+[17Jan2026 20:54:54.589] [modloading-worker-0/INFO] [quark/]: Loading Module Totem Of Holding
+[17Jan2026 20:54:54.589] [modloading-worker-0/INFO] [quark/]: Loading Module Tiny Potato
+[17Jan2026 20:54:54.590] [modloading-worker-0/INFO] [quark/]: Loading Module Pipes
+[17Jan2026 20:54:54.590] [modloading-worker-0/INFO] [quark/]: Loading Module Matrix Enchanting
+[17Jan2026 20:54:54.591] [modloading-worker-0/INFO] [quark/]: Loading Module Magnets
+[17Jan2026 20:54:54.591] [modloading-worker-0/INFO] [quark/]: Loading Module Crate
+[17Jan2026 20:54:54.592] [modloading-worker-0/INFO] [quark/]: Loading Module Backpack
+[17Jan2026 20:54:54.737] [modloading-worker-0/INFO] [fancymenu/FancyMenu/]: [FANCYMENU] Loading v2.14.9 in server-side mode!
+[17Jan2026 20:54:54.816] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod puzzleslib
+[17Jan2026 20:54:54.825] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[17Jan2026 20:54:57.659] [modloading-worker-0/INFO] [thelm.jaopca.data.DataCollector/]: Found 2191 unique defined tags
+[17Jan2026 20:54:57.756] [modloading-worker-0/INFO] [thelm.jaopca.data.DataCollector/]: Found 11765 unique defined recipes
+[17Jan2026 20:54:57.811] [modloading-worker-0/INFO] [thelm.jaopca.data.DataCollector/]: Found 3718 unique defined loot tables
+[17Jan2026 20:54:57.864] [modloading-worker-0/INFO] [thelm.jaopca.data.DataCollector/]: Found 2946 unique defined advancements
+[17Jan2026 20:54:57.928] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.voluminousenergy.VoluminousEnergyModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.928] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.voluminousenergy.VoluminousEnergyDustModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.928] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.voluminousenergy.VoluminousEnergyCrystalModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.928] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.voluminousenergy.VoluminousEnergyCompatModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.932] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.occultism.OccultismModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.932] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.occultism.OccultismCompatModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.945] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.integrateddynamics.IntegratedDynamicsNonIngotModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.945] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.integrateddynamics.IntegratedDynamicsModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.946] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.integrateddynamics.IntegratedDynamicsLegacyModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.946] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.indreb.IndRebModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.946] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.indreb.IndRebCompatModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.946] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.immersiveengineering.ImmersiveEngineeringNonIngotModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.946] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.immersiveengineering.ImmersiveEngineeringModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.946] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.immersiveengineering.ImmersiveEngineeringCompatModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.946] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.ic2.IC2NonIngotModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.946] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.ic2.IC2Module has missing mod dependencies, skipping
+[17Jan2026 20:54:57.947] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.ic2.IC2CompatModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.947] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.ftbic.FTBICNonIngotModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.948] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.ftbic.FTBICModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.948] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.ftbic.FTBICCompatModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.949] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.factorium.FactoriumModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.949] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.factorium.FactoriumCompatModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.949] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.electrodynamics.ElectrodynamicsNonIngotModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.949] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.electrodynamics.ElectrodynamicsModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.949] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.electrodynamics.ElectrodynamicsCompatModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.949] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.cyclic.CyclicNonIngotModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.949] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.cyclic.CyclicModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.949] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.crossroads.CrossroadsNonIngotModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.949] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.crossroads.CrossroadsModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.949] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.crossroads.CrossroadsCompatModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.953] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.assemblylinemachines.AssemblyLineMachinesModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.953] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.assemblylinemachines.AssemblyLineMachinesDustModule has missing mod dependencies, skipping
+[17Jan2026 20:54:57.953] [modloading-worker-0/INFO] [thelm.jaopca.modules.ModuleHandler/]: Module thelm.jaopca.compat.assemblylinemachines.AssemblyLineMachinesCompatModule has missing mod dependencies, skipping
+[17Jan2026 20:54:58.019] [modloading-worker-0/INFO] [thelm.jaopca.materials.MaterialHandler/]: Added 50 materials
+[17Jan2026 20:54:58.532] [main/INFO] [quark/]: Dispatching Module Step REGISTER
+[17Jan2026 20:54:59.148] [main/INFO] [quark/]: Dispatching Module Step POST_REGISTER
+[17Jan2026 20:54:59.261] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@75491241 has been registered twice for the same name treechop:chop_wood.
+[17Jan2026 20:55:04.020] [main/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-common.toml
+[17Jan2026 20:55:04.056] [main/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED
+[17Jan2026 20:55:04.121] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[17Jan2026 20:55:04.261] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id custommachinery:add_machine
+[17Jan2026 20:55:04.264] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id custommachinery:remove_machine
+[17Jan2026 20:55:04.264] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id custommachinery:element_clicked
+[17Jan2026 20:55:04.263] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Tom's Storage Setup starting
+[17Jan2026 20:55:04.268] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id custommachinery:change_side_mode
+[17Jan2026 20:55:04.269] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id custommachinery:button_gui_element
+[17Jan2026 20:55:04.270] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id custommachinery:place_structure
+[17Jan2026 20:55:04.272] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Initilaized Network Handler
+[17Jan2026 20:55:04.292] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Version 10.3.8 initializing...
+[17Jan2026 20:55:04.303] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Generators' module.
+[17Jan2026 20:55:04.386] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamiclights] Starting version check at https://api.modrinth.com/updates/7YjclEGc/forge_updates.json
+[17Jan2026 20:55:04.421] [modloading-worker-0/INFO] [com.betterfpsdist.BetterfpsdistMod/]: betterfpsdist mod initialized
+[17Jan2026 20:55:04.423] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[17Jan2026 20:55:04.426] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Mod loaded.
+[17Jan2026 20:55:04.509] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED
+[17Jan2026 20:55:04.538] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step SETUP
+[17Jan2026 20:55:04.642] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[17Jan2026 20:55:05.185] [main/INFO] [moonlight/]: Initialized color sets in 115ms
+[17Jan2026 20:55:05.285] [main/INFO] [moonlight/]: Initialized color sets in 99ms
+[17Jan2026 20:55:05.329] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamiclights] Found status: OUTDATED Current: 1.8.2+mod Target: 1.9+mod
+[17Jan2026 20:55:05.333] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.19.2
+[17Jan2026 20:55:05.427] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[17Jan2026 20:55:05.431] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[17Jan2026 20:55:05.453] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[17Jan2026 20:55:05.454] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[17Jan2026 20:55:05.670] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ht.treechop.compat.Jade
+[17Jan2026 20:55:05.695] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[17Jan2026 20:55:05.697] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.lootr.LootrPlugin
+[17Jan2026 20:55:05.705] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.general.GeneralPlugin
+[17Jan2026 20:55:05.709] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.create.CreatePlugin
+[17Jan2026 20:55:05.710] [modloading-worker-0/ERROR] [Jade/]: Error loading plugin at snownee.jade.addon.create.CreatePlugin
+java.lang.NoClassDefFoundError: com/simibubi/create/content/contraptions/processing/burner/BlazeBurnerTileEntity
+	at snownee.jade.addon.create.CreatePlugin.register(CreatePlugin.java:61) ~[JadeAddons-1.19.2-forge-3.4.0.jar%23256!/:3.4.0]
+	at snownee.jade.Jade.loadComplete(Jade.java:130) ~[Jade-1.19.1-forge-8.8.1.jar%23255!/:8.8.1]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:260) ~[eventbus-6.0.3.jar%2349!/:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:252) ~[eventbus-6.0.3.jar%2349!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%2349!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%2349!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:114) ~[javafmllanguage-1.19.2-43.4.2.jar%23307!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:123) ~[fmlcore-1.19.2-43.4.2.jar%23306!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.processing.burner.BlazeBurnerTileEntity
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 15 more
+[17Jan2026 20:55:05.718] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at fr.frinn.custommachinery.forge.integration.jade.CMWailaPlugin
+[17Jan2026 20:55:05.719] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.supermartijn642.tesseract.integration.TesseractWailaPlugin
+[17Jan2026 20:55:05.720] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at mekanism.common.integration.lookingat.jade.MekanismJadePlugin
+[17Jan2026 20:55:05.726] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[17Jan2026 20:55:05.749] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[17Jan2026 20:55:05.760] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step LOAD_COMPLETE
+[17Jan2026 20:55:05.761] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[17Jan2026 20:55:05.792] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Found status: BETA Current: 10.0+7 Target: 10.0+7
+[17Jan2026 20:55:05.792] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[17Jan2026 20:55:06.325] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17Jan2026 20:55:06.423] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.19.2-1.0.17 Target: null
+[17Jan2026 20:55:06.426] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Starting version check at https://raw.githubusercontent.com/tom5454/Toms-Storage/master/version-check.json
+[17Jan2026 20:55:06.479] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Found status: BETA_OUTDATED Current: 1.5.9 Target: 1.5.11
+[17Jan2026 20:55:06.480] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastleafdecay] Starting version check at https://www.olafkeijsers.net/fastleafdecay-update.json
+[17Jan2026 20:55:07.034] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:905) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.19.2-43.4.2.jar%23306!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.19.2-43.4.2.jar%23306!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.4.2.jar%23306!/:?]
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1294) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1169) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1112) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:481) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1133) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:174) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1128) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1094) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:369) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1272) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1169) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1112) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:481) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1133) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:174) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1128) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1094) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:224) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83) ~[?:?]
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:309) ~[?:?]
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1272) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1169) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1112) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:481) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1133) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:174) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1128) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1094) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Sun Dec 21 23:48:07 UTC 2025
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:274) ~[?:?]
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:621) ~[?:?]
+	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190) ~[?:?]
+	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:224) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83) ~[?:?]
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:309) ~[?:?]
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:364) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:275) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:285) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1272) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1169) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1112) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:481) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1277) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1264) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:712) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1209) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1133) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:174) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1128) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1094) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:498) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:282) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:347) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[17Jan2026 20:55:07.049] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/enchantinginfuser.json
+[17Jan2026 20:55:07.067] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Found status: UP_TO_DATE Current: 4.2.2 Target: null
+[17Jan2026 20:55:07.067] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.19.2
+[17Jan2026 20:55:07.169] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 9.0.0+14 Target: 9.0.0+14
+[17Jan2026 20:55:07.169] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[17Jan2026 20:55:07.405] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.5.0
+[17Jan2026 20:55:07.408] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Starting version check at https://raw.github.com/cofh/version/main/cofh_core/update.json
+[17Jan2026 20:55:07.492] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Found status: OUTDATED Current: 10.2.1 Target: 10.3.0
+[17Jan2026 20:55:07.492] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Starting version check at https://raw.github.com/cofh/version/master/thermal/update.json
+[17Jan2026 20:55:07.545] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Found status: OUTDATED Current: 10.2.0.5 Target: 10.3.0
+[17Jan2026 20:55:07.545] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_integration] Starting version check at https://raw.github.com/cofh/version/master/thermal/update_integration.json
+[17Jan2026 20:55:07.582] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_215924_ in modernfix-forge.mixins.json:perf.tag_id_caching.TagEntryMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[17Jan2026 20:55:07.609] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_integration] Found status: OUTDATED Current: 10.2.0.17 Target: 10.3.0
+[17Jan2026 20:55:07.610] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_innovation] Starting version check at https://raw.github.com/cofh/version/master/thermal/update_innovation.json
+[17Jan2026 20:55:07.687] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_innovation] Found status: OUTDATED Current: 10.2.0.18 Target: 10.3.0
+[17Jan2026 20:55:07.687] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_foundation] Starting version check at https://raw.github.com/cofh/version/master/thermal/update_foundation.json
+[17Jan2026 20:55:07.772] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_foundation] Found status: OUTDATED Current: 10.2.0.47 Target: 10.3.0
+[17Jan2026 20:55:07.772] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_expansion] Starting version check at https://raw.github.com/cofh/version/master/thermal/update_expansion.json
+[17Jan2026 20:55:07.860] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_expansion] Found status: OUTDATED Current: 10.2.0.21 Target: 10.3.0
+[17Jan2026 20:55:07.861] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Starting version check at https://maxhenkel.de/update/trade_cycling.json
+[17Jan2026 20:55:08.489] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Found status: UP_TO_DATE Current: 1.19.2-1.0.5 Target: null
+[17Jan2026 20:55:08.489] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[17Jan2026 20:55:08.503] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: OUTDATED Current: 1.19.2-2.2.32 Target: 1.19.2-2.3.7
+[17Jan2026 20:55:08.504] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[17Jan2026 20:55:08.712] [main/INFO] [KubeJS Server/]: server_scripts:added_recipes.js:3: Just Monika.
+[17Jan2026 20:55:08.715] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:added_recipes.js in 0.09 s
+[17Jan2026 20:55:08.718] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:tags.js in 0.003 s
+[17Jan2026 20:55:08.723] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:extra_integration.js in 0.005 s
+[17Jan2026 20:55:08.723] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: AHEAD Current: 0.6.9-18 Target: null
+[17Jan2026 20:55:08.727] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
+[17Jan2026 20:55:08.757] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:removed_recipes.js in 0.033 s
+[17Jan2026 20:55:08.760] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:scripts.js in 0.003 s
+[17Jan2026 20:55:08.773] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:sequenced_assemblies.js in 0.012 s
+[17Jan2026 20:55:08.774] [main/INFO] [KubeJS Server/]: Loaded 6/6 KubeJS server scripts in 0.162 s
+[17Jan2026 20:55:08.774] [main/INFO] [KubeJS Server/]: Scripts loaded
+[17Jan2026 20:55:08.802] [main/INFO] [KubeJS Server/]: Initializing recipe event...
+[17Jan2026 20:55:08.892] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2368!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19.2-43.4.2.jar%23306!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.4.2.jar%23306!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2368!/:?]
+	... 6 more
+[17Jan2026 20:55:08.895] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[17Jan2026 20:55:08.911] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 4.4.0 Target: 4.4.3
+[17Jan2026 20:55:12.015] [Worker-Main-2/INFO] [KubeJS Server/]: [minecraft:fluid] Found 54 tags, added 1 objects, removed 8 objects
+[17Jan2026 20:55:12.433] [Worker-Main-2/INFO] [KubeJS Server/]: [minecraft:item] Found 1210 tags, added 3 objects, removed 1 objects
+[17Jan2026 20:55:12.982] [Worker-Main-2/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file immersive_aircraft:airship from immersive_aircraft:recipes/airship.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:512) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:549) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:43) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:16) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1395) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:548) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:661) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar%2368!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:510) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	... 11 more
+[17Jan2026 20:55:13.103] [Worker-Main-2/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file immersive_aircraft:biplane from immersive_aircraft:recipes/biplane.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:512) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:549) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:43) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:16) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1395) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:548) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:661) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar%2368!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:510) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	... 11 more
+[17Jan2026 20:55:14.287] [main/INFO] [thelm.jaopca.data.DataInjector/]: Injected 330 recipes, 12093 recipes total
+[17Jan2026 20:55:14.287] [main/INFO] [KubeJS Server/]: Processing recipes...
+[17Jan2026 20:55:14.498] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/create/pulverizer_create_veridium[thermal:pulverizer]'! Falling back to vanilla: java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17Jan2026 20:55:14.533] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/create/pulverizer_create_veridium_recycle[thermal:pulverizer_recycle]'! Falling back to vanilla: java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17Jan2026 20:55:14.581] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/create/pulverizer_create_ochrum_recycle[thermal:pulverizer_recycle]'! Falling back to vanilla: java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17Jan2026 20:55:14.637] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/create/pulverizer_create_crimsite_recycle[thermal:pulverizer_recycle]'! Falling back to vanilla: java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17Jan2026 20:55:14.648] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/create/pulverizer_create_asurine[thermal:pulverizer]'! Falling back to vanilla: java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17Jan2026 20:55:14.706] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/create/pulverizer_create_zinc_ore[thermal:pulverizer]'! Falling back to vanilla: java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17Jan2026 20:55:14.709] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/create/pulverizer_create_ochrum[thermal:pulverizer]'! Falling back to vanilla: java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17Jan2026 20:55:14.711] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/create/pulverizer_create_crimsite[thermal:pulverizer]'! Falling back to vanilla: java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17Jan2026 20:55:14.713] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'create:mixing/mud_by_mixing[create:mixing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid fluid ingredient: {"type":"create:block_tag_ingredient","tag":"minecraft:convertable_to_mud"}
+[17Jan2026 20:55:14.717] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'thermal:compat/create/pulverizer_create_asurine_recycle[thermal:pulverizer_recycle]'! Falling back to vanilla: java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonElement.getAsString()" because the return value of "com.google.gson.JsonObject.get(String)" is null
+[17Jan2026 20:55:14.726] [main/INFO] [KubeJS Server/]: Found 8334 recipes in 436.7 ms
+[17Jan2026 20:55:15.357] [main/INFO] [KubeJS Server/]: Posted recipe events in 630.1 ms
+[17Jan2026 20:55:15.591] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: Duplicate recipe for id create:kjs_1cq383lfhik0zxyr9nl9iod8t! Using last one encountered.
+[17Jan2026 20:55:15.592] [KubeJS Recipe Event Worker 0/WARN] [KubeJS Server/]: You might want to check your scripts for errors.
+[17Jan2026 20:55:15.606] [main/INFO] [KubeJS Server/]: Added 217 recipes, removed 327 recipes, modified 1 recipes, with 0 failed recipes in 245.3 ms
+[17Jan2026 20:55:15.606] [main/INFO] [ModernFix/]: Clearing KubeJS recipe lists...
+[17Jan2026 20:55:16.153] [main/INFO] [placebo/]: Registered 0 additional loot tables.
+[17Jan2026 20:55:16.156] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function dynamiclights:internal/sources/parse/extension_1194
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Invalid or unknown entity type 'minecraft:item_display' at position 19: ...s @s[type=<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Invalid or unknown entity type 'minecraft:item_display' at position 19: ...s @s[type=<--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:85) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[17Jan2026 20:55:16.162] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function dynamiclights:internal/water/rain_check_1194
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Incorrect argument for command at position 11: ...xecute if <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Incorrect argument for command at position 11: ...xecute if <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:85) ~[server-1.19.2-20220805.130853-srg.jar%23305!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[17Jan2026 20:55:16.337] [main/INFO] [quark/]: [Automatic Recipe Unlock] Removed 2485 recipe advancements
+[17Jan2026 20:55:16.367] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 458 advancements
+[17Jan2026 20:55:16.381] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[17Jan2026 20:55:16.425] [main/INFO] [KubeJS Server/]: Collecting Custom Machine upgrades from JS scripts.
+[17Jan2026 20:55:16.443] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+[17Jan2026 20:55:16.443] [main/INFO] [quark/]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+[17Jan2026 20:55:16.444] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+[17Jan2026 20:55:16.444] [main/INFO] [quark/]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+[17Jan2026 20:55:16.445] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/balanced_diet with 2 patches
+[17Jan2026 20:55:16.445] [main/INFO] [quark/]: Modified advancement minecraft:nether/all_effects with 1 patches
+[17Jan2026 20:55:16.445] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+[17Jan2026 20:55:16.446] [main/INFO] [quark/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[17Jan2026 20:55:16.446] [main/INFO] [quark/]: Modified advancement minecraft:nether/all_potions with 1 patches
+[17Jan2026 20:55:17.051] [main/INFO] [Cucumber Library/]: Loaded cucumber-tags.json in 1 ms
+[17Jan2026 20:55:17.261] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[17Jan2026 20:55:17.262] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[17Jan2026 20:55:17.263] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[17Jan2026 20:55:17.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[17Jan2026 20:55:17.384] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[17Jan2026 20:55:17.458] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[17Jan2026 20:55:17.702] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17Jan2026 20:55:17.703] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[17Jan2026 20:55:17.703] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17Jan2026 20:55:17.703] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[17Jan2026 20:55:17.773] [Server thread/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-server.toml
+[17Jan2026 20:55:17.780] [Server thread/INFO] [Puzzles Lib/]: Loading server config for enchantinginfuser
+[17Jan2026 20:55:17.809] [Server thread/INFO] [FluxNetworks/Energy]: Energy blacklist loaded: 1 block entries, 0 item entries
+[17Jan2026 20:55:17.902] [Server thread/INFO] [FTB Teams/]: loaded team data: 1 known players, 1 teams total
+[17Jan2026 20:55:17.928] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[17Jan2026 20:55:18.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[17Jan2026 20:55:18.867] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in canary.mixins.json:world.chunk_tickets.SortedArraySetMixin, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
+[17Jan2026 20:55:20.877] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2026 20:55:20.878] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2026 20:55:20.878] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2026 20:55:20.878] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2026 20:55:20.879] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2026 20:55:21.414] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2026 20:55:21.876] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17Jan2026 20:55:22.369] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[17Jan2026 20:55:22.865] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
+[17Jan2026 20:55:23.366] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
+[17Jan2026 20:55:24.266] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5402 ms
+[17Jan2026 20:55:24.266] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.552s)! For help, type "help"
+[17Jan2026 20:55:24.409] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[17Jan2026 20:55:24.413] [Server thread/INFO] [xaero.map.WorldMap/]: Registered synced player tracker system: ftb_teams
+[17Jan2026 20:55:24.420] [Server thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Registered synced player tracker system: ftb_teams
+[17Jan2026 20:55:24.431] [Server thread/INFO] [FTB Quests/]: Loading quests from /workspaces/musical-meme/servidor_minecraft/config/ftbquests/quests
+[17Jan2026 20:55:24.496] [Server thread/INFO] [FTB Quests/]: Loaded 2 chapter groups, 13 chapters, 179 quests, 0 reward tables
+[17Jan2026 20:55:24.510] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[17Jan2026 20:55:24.526] [Server thread/WARN] [ModernFix/]: Dedicated server took 84.956 seconds to load
+[17Jan2026 20:55:33.519] [Netty Epoll Server IO #1/INFO] [mixin/]: Mixing server.MixinServerboundChatPacket from nochatreports.mixins.json into net.minecraft.network.protocol.game.ServerboundChatPacket
+[17Jan2026 20:55:33.593] [Netty Epoll Server IO #1/INFO] [mixin/]: Mixing common.MixinServerStatusSerializer from nochatreports.mixins.json into net.minecraft.network.protocol.status.ServerStatus$Serializer
+[17Jan2026 20:55:37.340] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[17Jan2026 20:55:37.501] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1397c947
+[17Jan2026 20:55:37.525] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_9s31bg8up0e2e0v4f1hmpqsbh removed now.
+[17Jan2026 20:55:37.525] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_514f1xqiuawfxhyui98ys11hh removed now.
+[17Jan2026 20:55:37.525] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_bb9tfi5zde7uyhglc4wyczg4g removed now.
+[17Jan2026 20:55:37.526] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_a6zyu20u7e3ag0rhbvb6jx90l removed now.
+[17Jan2026 20:55:37.526] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_a9pl1aeu3sbgog996bbhcddwv removed now.
+[17Jan2026 20:55:37.526] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_p1yik9lvogem5uuqeyhf4d2x removed now.
+[17Jan2026 20:55:37.529] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_3dl4ah4phbzdv53ls28lg67y8 removed now.
+[17Jan2026 20:55:37.529] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_5cm10jse2va75ufsrjvnbbjgz removed now.
+[17Jan2026 20:55:37.530] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_9cixbrt5ffne3fa7jgf2d5mg2 removed now.
+[17Jan2026 20:55:37.531] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_9x6gt8hiobm4xhoar2kn5axa4 removed now.
+[17Jan2026 20:55:37.531] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_xiz9ip9eaboe9nu8i0638qa1 removed now.
+[17Jan2026 20:55:37.532] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_6ui2y8bjvt3ab0jm1gr6swffm removed now.
+[17Jan2026 20:55:37.532] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_3o7dybwjcz65ye3fy4fkdxtgq removed now.
+[17Jan2026 20:55:37.533] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_4eaz1ngi6ggubs4zfw7tu1s8d removed now.
+[17Jan2026 20:55:37.534] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_4iw0w8ll3wsbspkh2l9s3kgg8 removed now.
+[17Jan2026 20:55:37.535] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_56sgauakv6btaywu7qb8arzj3 removed now.
+[17Jan2026 20:55:37.535] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_1qav3t4je4hv31g7mqk9oo7s0 removed now.
+[17Jan2026 20:55:37.535] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_39qq46v68epkknmxyx6tsww0q removed now.
+[17Jan2026 20:55:37.535] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_wve02oujm82kp6xh6xoi1ift removed now.
+[17Jan2026 20:55:37.535] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_ab4sfueszh1f6favj83okhs56 removed now.
+[17Jan2026 20:55:37.536] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_99hkou94cu1to3d6jxbnwfjm removed now.
+[17Jan2026 20:55:37.536] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:kjs_bmr6r50v8g4h70k65v2qa27rw removed now.
+[17Jan2026 20:55:37.537] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_8nufwi4y9ctw0c1bwwjbycmtb removed now.
+[17Jan2026 20:55:37.537] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_9bc1fib17zmekoug9ntapce7q removed now.
+[17Jan2026 20:55:37.538] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_56nmkagh32535ia9xuwr2vemc removed now.
+[17Jan2026 20:55:37.538] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_eko25qzgjlpae0kuri2dhsbel removed now.
+[17Jan2026 20:55:37.538] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_8u49h7k10cvcukk1npx8rp1c4 removed now.
+[17Jan2026 20:55:37.540] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_bhfse36d0ytjyy5ctclzow1sl removed now.
+[17Jan2026 20:55:37.540] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_5bs5k20aovuh90k3h7bekzdyd removed now.
+[17Jan2026 20:55:37.541] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_e5lrgpsxg7o4ue8ittyv7qzh9 removed now.
+[17Jan2026 20:55:37.541] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_b3vf9r9b40iirmb75bulxtcin removed now.
+[17Jan2026 20:55:37.541] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_dn8aksezwxae0gj32iodedwjz removed now.
+[17Jan2026 20:55:37.541] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_8nba3jhw1nqt9c5b0k5h3d1pw removed now.
+[17Jan2026 20:55:37.542] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_9m5jfqt26c7z7d4aue41a47uy removed now.
+[17Jan2026 20:55:37.542] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_932nnyeb0yr9ixnyynpbidhs8 removed now.
+[17Jan2026 20:55:37.543] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_mcq174897y9g8i6kqjn869yy removed now.
+[17Jan2026 20:55:37.544] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_lz7bbwmszbv08my72tx4xj9r removed now.
+[17Jan2026 20:55:37.545] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_3wfg4xhb01956n646qst37s2g removed now.
+[17Jan2026 20:55:37.546] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_kd2s94tm0bhv0y4or68sl1ce removed now.
+[17Jan2026 20:55:37.546] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_81ohthreokg6512djp4lwzy5q removed now.
+[17Jan2026 20:55:37.546] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_cldd0z9tja9sqfmyuqmb0rtbl removed now.
+[17Jan2026 20:55:37.546] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_9t1d1247tmjt00rbw63otoc0l removed now.
+[17Jan2026 20:55:37.547] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_5vsd2frp0bpwfjecectvphhhj removed now.
+[17Jan2026 20:55:37.547] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_9wpxzwz0zreglvsl7ofmusrpx removed now.
+[17Jan2026 20:55:37.547] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_dx4rqhd72n5zasaq9xtjr5boj removed now.
+[17Jan2026 20:55:37.547] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_esefz35t657ogleo4u1ax6bzh removed now.
+[17Jan2026 20:55:37.549] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_iid1r9y918hswdqteavayeci removed now.
+[17Jan2026 20:55:37.549] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_eioxri8z53mbud7lbwvmm1umj removed now.
+[17Jan2026 20:55:37.550] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_56yu7xo0srfndc63u5te203je removed now.
+[17Jan2026 20:55:37.551] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_3yd61j5065mb9fikt3f540y02 removed now.
+[17Jan2026 20:55:37.552] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_2n3nbolzf8i7nrdmtioqxtst6 removed now.
+[17Jan2026 20:55:37.552] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_7vnh8iz4bw22kgfqo3tskxib1 removed now.
+[17Jan2026 20:55:37.553] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_6rnfk36kp7mqkku2su0jyr2jw removed now.
+[17Jan2026 20:55:37.553] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_aka6j86hqka6idh5jxxf1wm94 removed now.
+[17Jan2026 20:55:37.553] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_1nqeetlkr20mv9ny3wspqxdrs removed now.
+[17Jan2026 20:55:37.553] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_4iq3juuo21wuf7rm038zzwp81 removed now.
+[17Jan2026 20:55:37.553] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_20nm8941nonj2154iokt6zowc removed now.
+[17Jan2026 20:55:37.554] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_7qoqbycwfnvv2n2a7r349gnzp removed now.
+[17Jan2026 20:55:37.555] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_34xjx6fi997efnah4kp8z3o9l removed now.
+[17Jan2026 20:55:37.555] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_e3on2jbxvh8e3eqjkh5kmc9j8 removed now.
+[17Jan2026 20:55:37.556] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_e0qri5d96tlzfb034huf8q4c3 removed now.
+[17Jan2026 20:55:37.559] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_e92c7akixswwlpllb4wpnir8a removed now.
+[17Jan2026 20:55:37.559] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_97n5nnbaru8bsj1pt8fkfzkr3 removed now.
+[17Jan2026 20:55:37.559] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_5tjb0gdoff8lj6e6h4qm6ry1r removed now.
+[17Jan2026 20:55:37.559] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_7i2ak26pcjz9jrfxkpy39mxyk removed now.
+[17Jan2026 20:55:37.559] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_3vgaz7mbinv9ogbjfqsmeec48 removed now.
+[17Jan2026 20:55:37.561] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_4jmj44495xr0h9pyicb3d2x1i removed now.
+[17Jan2026 20:55:37.561] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_1ifcrfg06injtgo9xo11hcjnz removed now.
+[17Jan2026 20:55:37.561] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_6my9i8ghilsi7b3v7o5mr4l4h removed now.
+[17Jan2026 20:55:37.562] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_c1z56epdr9xnml80gv0q9nd1i removed now.
+[17Jan2026 20:55:37.562] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_1ffsb8nq1jv91g3c3pd0vx76a removed now.
+[17Jan2026 20:55:37.565] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_j8t9jqqovkuk6friw2ll2r4v removed now.
+[17Jan2026 20:55:37.565] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_cer2ff7k4k2v2t6l2xgre01pt removed now.
+[17Jan2026 20:55:37.566] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_xc24m7p5xdf76h51hzf57og4 removed now.
+[17Jan2026 20:55:37.566] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_kmo6oeuz96n9tfipn93ndr2y removed now.
+[17Jan2026 20:55:37.566] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_c1weyaudvrfitj9pzxuuezhfo removed now.
+[17Jan2026 20:55:37.567] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_85f29w43d4egghg7vgqtirqfj removed now.
+[17Jan2026 20:55:37.569] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_e0tr4543ld2c1eak8gu45pydg removed now.
+[17Jan2026 20:55:37.569] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_36y1jh2v92ni49uxu6cc1mo5l removed now.
+[17Jan2026 20:55:37.570] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_56klfn4ys9cffx1npasqpuyd3 removed now.
+[17Jan2026 20:55:37.573] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_9s31bg8up0e2e0v4f1hmpqsbh removed now.
+[17Jan2026 20:55:37.574] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_514f1xqiuawfxhyui98ys11hh removed now.
+[17Jan2026 20:55:37.575] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_bb9tfi5zde7uyhglc4wyczg4g removed now.
+[17Jan2026 20:55:37.576] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_a6zyu20u7e3ag0rhbvb6jx90l removed now.
+[17Jan2026 20:55:37.576] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_a9pl1aeu3sbgog996bbhcddwv removed now.
+[17Jan2026 20:55:37.577] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_p1yik9lvogem5uuqeyhf4d2x removed now.
+[17Jan2026 20:55:37.578] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_3dl4ah4phbzdv53ls28lg67y8 removed now.
+[17Jan2026 20:55:37.581] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_5cm10jse2va75ufsrjvnbbjgz removed now.
+[17Jan2026 20:55:37.581] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_9cixbrt5ffne3fa7jgf2d5mg2 removed now.
+[17Jan2026 20:55:37.581] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_9x6gt8hiobm4xhoar2kn5axa4 removed now.
+[17Jan2026 20:55:37.582] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_xiz9ip9eaboe9nu8i0638qa1 removed now.
+[17Jan2026 20:55:37.582] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_6ui2y8bjvt3ab0jm1gr6swffm removed now.
+[17Jan2026 20:55:37.582] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_3o7dybwjcz65ye3fy4fkdxtgq removed now.
+[17Jan2026 20:55:37.582] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_4eaz1ngi6ggubs4zfw7tu1s8d removed now.
+[17Jan2026 20:55:37.582] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_4iw0w8ll3wsbspkh2l9s3kgg8 removed now.
+[17Jan2026 20:55:37.582] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_56sgauakv6btaywu7qb8arzj3 removed now.
+[17Jan2026 20:55:37.582] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_1qav3t4je4hv31g7mqk9oo7s0 removed now.
+[17Jan2026 20:55:37.584] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_39qq46v68epkknmxyx6tsww0q removed now.
+[17Jan2026 20:55:37.585] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_wve02oujm82kp6xh6xoi1ift removed now.
+[17Jan2026 20:55:37.585] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_ab4sfueszh1f6favj83okhs56 removed now.
+[17Jan2026 20:55:37.586] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_99hkou94cu1to3d6jxbnwfjm removed now.
+[17Jan2026 20:55:37.586] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:kjs_bmr6r50v8g4h70k65v2qa27rw removed now.
+[17Jan2026 20:55:37.587] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_8nufwi4y9ctw0c1bwwjbycmtb removed now.
+[17Jan2026 20:55:37.587] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_9bc1fib17zmekoug9ntapce7q removed now.
+[17Jan2026 20:55:37.587] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_56nmkagh32535ia9xuwr2vemc removed now.
+[17Jan2026 20:55:37.588] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_eko25qzgjlpae0kuri2dhsbel removed now.
+[17Jan2026 20:55:37.589] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_8u49h7k10cvcukk1npx8rp1c4 removed now.
+[17Jan2026 20:55:37.589] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_bhfse36d0ytjyy5ctclzow1sl removed now.
+[17Jan2026 20:55:37.589] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_5bs5k20aovuh90k3h7bekzdyd removed now.
+[17Jan2026 20:55:37.589] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_e5lrgpsxg7o4ue8ittyv7qzh9 removed now.
+[17Jan2026 20:55:37.590] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_b3vf9r9b40iirmb75bulxtcin removed now.
+[17Jan2026 20:55:37.590] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_dn8aksezwxae0gj32iodedwjz removed now.
+[17Jan2026 20:55:37.592] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_8nba3jhw1nqt9c5b0k5h3d1pw removed now.
+[17Jan2026 20:55:37.592] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_9m5jfqt26c7z7d4aue41a47uy removed now.
+[17Jan2026 20:55:37.593] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_932nnyeb0yr9ixnyynpbidhs8 removed now.
+[17Jan2026 20:55:37.593] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_mcq174897y9g8i6kqjn869yy removed now.
+[17Jan2026 20:55:37.593] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_lz7bbwmszbv08my72tx4xj9r removed now.
+[17Jan2026 20:55:37.593] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_3wfg4xhb01956n646qst37s2g removed now.
+[17Jan2026 20:55:37.594] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_81ohthreokg6512djp4lwzy5q removed now.
+[17Jan2026 20:55:37.594] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_cldd0z9tja9sqfmyuqmb0rtbl removed now.
+[17Jan2026 20:55:37.594] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_9t1d1247tmjt00rbw63otoc0l removed now.
+[17Jan2026 20:55:37.595] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_5vsd2frp0bpwfjecectvphhhj removed now.
+[17Jan2026 20:55:37.597] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_9wpxzwz0zreglvsl7ofmusrpx removed now.
+[17Jan2026 20:55:37.597] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_dx4rqhd72n5zasaq9xtjr5boj removed now.
+[17Jan2026 20:55:37.597] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_esefz35t657ogleo4u1ax6bzh removed now.
+[17Jan2026 20:55:37.598] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_iid1r9y918hswdqteavayeci removed now.
+[17Jan2026 20:55:37.598] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_eioxri8z53mbud7lbwvmm1umj removed now.
+[17Jan2026 20:55:37.598] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_56yu7xo0srfndc63u5te203je removed now.
+[17Jan2026 20:55:37.598] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_3yd61j5065mb9fikt3f540y02 removed now.
+[17Jan2026 20:55:37.603] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_7vnh8iz4bw22kgfqo3tskxib1 removed now.
+[17Jan2026 20:55:37.604] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_6rnfk36kp7mqkku2su0jyr2jw removed now.
+[17Jan2026 20:55:37.604] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_aka6j86hqka6idh5jxxf1wm94 removed now.
+[17Jan2026 20:55:37.605] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_1nqeetlkr20mv9ny3wspqxdrs removed now.
+[17Jan2026 20:55:37.605] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_4iq3juuo21wuf7rm038zzwp81 removed now.
+[17Jan2026 20:55:37.605] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_20nm8941nonj2154iokt6zowc removed now.
+[17Jan2026 20:55:37.605] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_7qoqbycwfnvv2n2a7r349gnzp removed now.
+[17Jan2026 20:55:37.606] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_34xjx6fi997efnah4kp8z3o9l removed now.
+[17Jan2026 20:55:37.606] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_e3on2jbxvh8e3eqjkh5kmc9j8 removed now.
+[17Jan2026 20:55:37.606] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_e0qri5d96tlzfb034huf8q4c3 removed now.
+[17Jan2026 20:55:37.606] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_e92c7akixswwlpllb4wpnir8a removed now.
+[17Jan2026 20:55:37.606] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_97n5nnbaru8bsj1pt8fkfzkr3 removed now.
+[17Jan2026 20:55:37.612] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_5tjb0gdoff8lj6e6h4qm6ry1r removed now.
+[17Jan2026 20:55:37.612] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_7i2ak26pcjz9jrfxkpy39mxyk removed now.
+[17Jan2026 20:55:37.612] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_3vgaz7mbinv9ogbjfqsmeec48 removed now.
+[17Jan2026 20:55:37.613] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_4jmj44495xr0h9pyicb3d2x1i removed now.
+[17Jan2026 20:55:37.613] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_1ifcrfg06injtgo9xo11hcjnz removed now.
+[17Jan2026 20:55:37.613] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_6my9i8ghilsi7b3v7o5mr4l4h removed now.
+[17Jan2026 20:55:37.614] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_c1z56epdr9xnml80gv0q9nd1i removed now.
+[17Jan2026 20:55:37.614] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_1ffsb8nq1jv91g3c3pd0vx76a removed now.
+[17Jan2026 20:55:37.615] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_j8t9jqqovkuk6friw2ll2r4v removed now.
+[17Jan2026 20:55:37.615] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_cer2ff7k4k2v2t6l2xgre01pt removed now.
+[17Jan2026 20:55:37.617] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_xc24m7p5xdf76h51hzf57og4 removed now.
+[17Jan2026 20:55:37.618] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_kmo6oeuz96n9tfipn93ndr2y removed now.
+[17Jan2026 20:55:37.618] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_c1weyaudvrfitj9pzxuuezhfo removed now.
+[17Jan2026 20:55:37.618] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_85f29w43d4egghg7vgqtirqfj removed now.
+[17Jan2026 20:55:37.619] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_e0tr4543ld2c1eak8gu45pydg removed now.
+[17Jan2026 20:55:37.619] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_36y1jh2v92ni49uxu6cc1mo5l removed now.
+[17Jan2026 20:55:37.621] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: kubejs:kjs_56klfn4ys9cffx1npasqpuyd3 removed now.
+[17Jan2026 20:55:37.622] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DripX_[/127.85.232.147:60657] logged in with entity id 88 at (-3771.8656356921197, 68.0, 2198.645861776997)
+[17Jan2026 20:55:37.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DripX_ joined the game
+[17Jan2026 20:55:38.055] [Server thread/INFO] [net.nicguzzo.wands.WandsMod/]: PLAYER_JOIN
+[17Jan2026 20:55:38.056] [Server thread/INFO] [net.nicguzzo.wands.WandsMod/]: add_player wand
+[17Jan2026 20:55:38.113] [Server thread/INFO] [net.nicguzzo.wands.WandsMod/]: config sent
+[17Jan2026 20:55:38.125] [Server thread/INFO] [Jade/]: Syncing config to DripX_ (8cdc26f0-44de-321b-8e1c-168268fba2d8)
+[17Jan2026 20:55:41.937] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[17Jan2026 20:55:53.559] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DripX_ lost connection: Disconnected
+[17Jan2026 20:55:53.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DripX_ left the game
+[17Jan2026 20:55:53.563] [Server thread/INFO] [net.nicguzzo.wands.WandsMod/]: remove player wand
+[17Jan2026 20:55:56.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[17Jan2026 20:55:56.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[17Jan2026 20:55:56.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[17Jan2026 20:56:00.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17Jan2026 20:56:03.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:earth_orbit
+[17Jan2026 20:56:03.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars_orbit
+[17Jan2026 20:56:03.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17Jan2026 20:56:03.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars
+[17Jan2026 20:56:03.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus
+[17Jan2026 20:56:03.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio
+[17Jan2026 20:56:03.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus_orbit
+[17Jan2026 20:56:03.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury_orbit
+[17Jan2026 20:56:03.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio_orbit
+[17Jan2026 20:56:03.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon
+[17Jan2026 20:56:03.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury
+[17Jan2026 20:56:03.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon_orbit
+[17Jan2026 20:56:03.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17Jan2026 20:56:04.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17Jan2026 20:56:04.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
+[17Jan2026 20:56:04.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[17Jan2026 20:56:04.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17Jan2026 20:56:04.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[17Jan2026 20:56:04.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[17Jan2026 20:56:04.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
+[17Jan2026 20:56:04.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[17Jan2026 20:56:04.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[17Jan2026 20:56:04.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
+[17Jan2026 20:56:04.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[17Jan2026 20:56:04.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[17Jan2026 20:56:04.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[17Jan2026 20:56:04.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17Jan2026 20:56:04.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17Jan2026 20:56:04.184] [Server thread/INFO] [FTB Chunks/]: Shutting down map thread
