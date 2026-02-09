@@ -1,0 +1,15 @@
+[22:58:04] [INIT] KubeJS 1902.6.1-build.311; MC 1902 forge
+[22:58:04] [INIT] Loaded plugins:
+[22:58:04] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[22:58:04] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
+[22:58:04] [INIT] - fr.frinn.custommachinery.common.integration.kubejs.CustomMachineryKubeJSPlugin
+[22:58:04] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[22:58:04] [INIT] - dev.ftb.mods.ftbquests.integration.kubejs.KubeJSIntegration
+[22:58:04] [INIT] - thelm.jaopca.compat.kubejs.JAOPCAKubeJSPlugin
+[22:58:04] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[22:58:05] [INFO] startup_scripts:script.js:3: Just think of Monika from now on. Just Monika. Just Monika. Just Monika.
+[22:58:05] [INFO] startup_scripts:script.js:94: Loaded Java class 'dev.architectury.platform.forge.EventBuses'
+[22:58:05] [INFO] startup_scripts:script.js:95: Loaded Java class 'mekanism.common.registration.impl.GasDeferredRegister'
+[22:58:05] [INFO] startup_scripts:script.js:96: Loaded Java class 'mekanism.common.registration.impl.SlurryDeferredRegister'
+[22:58:05] [INFO] Loaded script startup_scripts:script.js in 0.155 s
+[22:58:05] [INFO] Loaded 1/1 KubeJS startup scripts in 0.594 s
